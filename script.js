@@ -1,5 +1,5 @@
 
-const key = "3be586936af409a6b8e0ff52f1bd92fd";
+const key = "your-key";
 
 function colocarDadosNaTela (dados) {
 	document.querySelector(".cidade").innerText = `Tempo em ${dados.name}`;
