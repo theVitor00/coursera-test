@@ -6,12 +6,13 @@
  }
 
  body {
-    width: 100wh;
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://images.unsplash.com/photo-1501786223405-6d024d7c3b8d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY4NTI0MzY5MQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
  }
 
  .caixa-maior{
@@ -56,6 +57,7 @@
     color: #ffffff;
     font-size: 28px;
     font-weight: 300;
+    margin-top: 10px;
  }
 
  .temp {
@@ -73,6 +75,7 @@
  .texto-previsao {
     color: #ffffff;
     margin-left: 20px;
+    text-transform: capitalize;
  }
 
  .umidade {
