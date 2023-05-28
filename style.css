@@ -1,25 +1,80 @@
-body {
-    background-color: rgb(100, 149, 237);
-    text-align: center;
-}
-
-.titulo {
-    color: white;
-}
-
-ul {
-    list-style-type: nome;
+* {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    text-align: center;
-}
+    box-sizing: border-box;
+    font-family: 'Open-Sans', sans-serif;
+ }
 
-li {
-    float: center;
-    display: block;
-    padding: 14px 16px;
-    color: white;
-    text-align: center;
-    
-}
+ body {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1501786223405-6d024d7c3b8d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY4NTI0MzY5MQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+ }
+
+ .caixa-maior{
+    background: #000000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+ }
+
+ .caixa-media {
+    margin-top: 30px;
+ }
+
+ .input-cidade {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 70px);
+ }
+
+ .botao-busca {
+    border: none;
+    outline: none;
+    padding: 13px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+ }
+
+ .img-busca {
+    width: 20px;
+ }
+
+ .cidade {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+ }
+
+ .temp {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+ }
+
+ .caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+ }
+
+ .texto-previsao {
+    color: #ffffff;
+    margin-left: 20px;
+ }
+
+ .umidade {
+    color: #ffffff;
+ }
