@@ -1,0 +1,39 @@
+!<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Element with Class Selector</title>
+        <style>
+            /* all with class="highlight" */
+            .highlight {
+                background-color: green;
+            }
+
+            /* all p elements with class="highlight" */
+            p.highlight {
+                font-style: italic;
+            }
+
+            /* all elements with class="highlight" as well as with class "mainpoint". */
+            .highlight.mainpoint {
+                color: red;
+                background-color: black;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <h1 class="highlight">Elements With Selectors</h1>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa fugiat quisquam ex accusamus quo error dolorum, magni nemo animi ullam dolore necessitatibus quidem distinctio nostrum, beatae iure exercitationem! Voluptates, consectetur?
+        </p>
+        <p class="highlight">
+            This is a P with CLASS="highlight"
+        </p>
+        <div class="highlight mainpoint">This is the main point of the entire article</div>
+
+    </body>
+</html>
+</html>
