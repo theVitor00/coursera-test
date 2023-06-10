@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Specifity is CSS</title>
+        <style>
+            header.navigation p {
+                color: blue;
+            }
+
+            p.blurb {
+                color: red;
+            }
+
+            p {
+                color: green !important;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+        
+        <header class="navigation">
+            <p class="blurb">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex deserunt provident nostrum, repellendus officiis quod necessitatibus temporibus ab labore totam placeat laudantium laborum debitis unde tempore ad sunt excepturi? Recusandae?</p>
+        </header>
+    </body>
+</html>
